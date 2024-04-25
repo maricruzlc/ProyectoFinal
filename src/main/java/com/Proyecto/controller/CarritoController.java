@@ -82,6 +82,13 @@ public class CarritoController {
        itemService.actualiza(item);
        return "redirect:/carrito/listado";
    }
+   
+     //Para facturar los productos del carrito
+   @GetMapping("/facturar/carrito")
+   public String facturarCarrito() {
+       itemService.facturar();
+       return "redirect:/";
+   }
 
 }
 
