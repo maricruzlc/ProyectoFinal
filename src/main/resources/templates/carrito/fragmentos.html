@@ -77,16 +77,13 @@
                                            <td class="text-center">[[${item.cantidad}]]</td>
                                            <td class="text-center">[[${item.cantidad*item.precio}]]</td>
                                            <td>
-                                               <a th:href="@{/carrito/eliminar/}+${item.idProducto}"
+                                               <a th:href="@{/carrito/eliminar/}+${item.idProducto} " 
                                                   class="btn btn-danger">
                                                    <i class='fas fa-trash'></i> [[#{accion.eliminar}]]
                                                </a>
                                            </td>
                                            <td>
-                                               <a th:href="@{/carrito/modificar/}+${item.idProducto}"
-                                                  class="btn btn-success">
-                                                   <i class='fas fa-pencil'></i> [[#{accion.actualizar}]]
-                                               </a>
+                                               
                                            </td>
                                        </tr>
                                    </tbody>
