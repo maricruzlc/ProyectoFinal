@@ -8,6 +8,7 @@ com\Proyecto\controller\UsuarioController.class
 com\Proyecto\dao\ProductoDao.class
 com\Proyecto\dao\UsuarioDao.class
 com\Proyecto\dao\VentaDao.class
+com\Proyecto\controller\PruebasController.class
 com\Proyecto\controller\CategoriaController.class
 com\Proyecto\service\UsuarioService.class
 com\Proyecto\service\impl\UsuarioServiceImpl.class
